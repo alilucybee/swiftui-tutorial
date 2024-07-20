@@ -12,6 +12,7 @@ struct LandmarksApp: App {
     @State private var modelData = ModelData()
 
     var body: some Scene {
+        // declares root view of app
         WindowGroup {
             ContentView()
                 .environment(modelData)
